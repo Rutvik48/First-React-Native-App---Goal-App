@@ -48,7 +48,7 @@ export default function App() {
       which can/will cause app slowdown issue*/}
       <FlatList
         data={courseGoals}
-        renderItem={itemData => <GoalItems title={itemData.item.value} />
+        renderItem={itemData => <GoalItem title={itemData.item.value} />
         } />
     </View>
   );

@@ -8,7 +8,7 @@ const GoalItem = props => {
         </View>);
 };
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     listItems: {
         padding: 10,
         marginVertical: 10,
